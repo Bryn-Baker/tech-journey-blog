@@ -20,20 +20,8 @@ export default function Home() {
       <div>
         <section>
           <p className={'prose'}>
-            Hey I&apos;m Luke. This is my site.
+            &apos; 
           </p>
-          <div className={'my-4'}>
-            <i>
-              Check out the repo{' '}
-                <Link href={'https://github.com/ludu12/tech-journey-blog'}>
-                  <button className={'btn btn-sm btn-primary'}>
-                      <span className={'text-primary-content'}>
-                        here
-                      </span>
-                  </button>
-                </Link>
-            </i>
-          </div>
         </section>
 
         <div className={'my-4'}>
@@ -42,7 +30,7 @@ export default function Home() {
         </div>
 
         <section className={'prose'}>
-          <h2>Blog</h2>
+          <h2>portfolio</h2>
           <ul>
             {allPostsData.map(({id, date, title}) => (
                 <li key={id}>
